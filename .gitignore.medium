@@ -1,0 +1,70 @@
+# MEDIUM PERMISSIVE .gitignore - Balanced approach for project uploads
+# This configuration ensures all documentation, scripts, and source files are included
+# while ignoring development artifacts and system files
+
+# Python Runtime Files (keep source .py files)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Python Build Artifacts (ignore compiled/generated files)
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual Environments (ignore local environments)
+venv/
+env/
+.venv/
+.env
+
+# IDEs and Editors (ignore editor-specific files)
+.vscode/settings.json
+.vscode/launch.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Logs and Runtime Data (ignore generated logs)
+*.log
+pids/
+*.pid
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Local Configuration (ignore sensitive config)
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Testing Artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# EXPLICITLY INCLUDE IMPORTANT PROJECT FILES:
+# All .py scripts are included by default
+# All .sh scripts are included by default  
+# All .md documentation files are included by default
+# All .txt files (like requirements.txt) are included by default
+
+# Note: This .gitignore is configured to be permissive for initial project upload
+# Consider making it more restrictive after the initial commit

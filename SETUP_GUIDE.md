@@ -1,6 +1,30 @@
 # Python Server Manager Setup Guide
 ## Complete Cross-Platform Installation & Usage Guide
 
+> **Focus**: This guide is specifically for the **Python-based** cross-platform server manager (`python_server_manager.py`), not the bash version. It works on Windows, macOS, and Linux.
+
+### Key Features of This Guide:
+
+🔧 **Complete Platform Coverage**
+- **macOS**: Homebrew, system packages, externally managed environments
+- **Windows**: Microsoft Store, python.org installer, Chocolatey, PowerShell/CMD
+- **Linux**: Ubuntu/Debian, CentOS/RHEL/Fedora package managers
+
+📋 **Structured Sections**
+1. Prerequisites - Python installation for each platform
+2. Setup Server Manager - Manual and automated setup options
+3. Gitignore Creation - Multiple methods including VSCode integration
+4. Usage Guide - Complete command reference and workflows
+5. Maintenance - File locations and cleanup procedures
+6. Troubleshooting - Platform-specific issues and solutions
+
+🚀 **Practical Features**
+- Python-native cross-platform compatibility
+- Command examples for different shells (bash, zsh, cmd, PowerShell)
+- VSCode integration instructions
+- Quick reference card for daily use
+- Platform-specific troubleshooting solutions
+
 ### Table of Contents
 1. [Prerequisites](#section-1-prerequisites)
 2. [Setup Server Manager](#section-2-setup-server-manager)
