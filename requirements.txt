@@ -1,1 +1,41 @@
+# Python Server Manager Requirements
+# ==================================
+
+# What you need on your computer:
 psutil>=5.8.0
+
+# That's it! Just one small library that helps Python work with your system.
+
+# How to install:
+# ===============
+# Windows:    pip install psutil
+# Mac/Linux:  pip3 install psutil
+
+# Or install everything at once:
+# pip3 install -r requirements.txt
+
+# What psutil does:
+# It lets Python see and manage running programs on Windows, Mac, and Linux.
+# Without it, the server manager can't show you what servers are running.
+
+# Using in your projects:
+# ======================
+# 1. Copy python_server_manager.py to your project folder
+# 2. Rename it to server_manager.py (easier to type!)
+# 3. Add "server_manager.py" to your .gitignore file
+# 4. Run: python3 server_manager.py quick
+
+# Managing .gitignore in your projects:
+# ====================================
+# This repository includes 3 ready-made .gitignore files:
+#
+# .gitignore.high      → Use when starting a new project (includes everything)
+# .gitignore.medium    → Use during development (balanced)
+# .gitignore.restrictive → Use for finished projects (very selective)
+#
+# Copy the one you want: cp .gitignore.medium .gitignore
+
+# Need help? Check the guides:
+# README.md - Quick overview
+# SETUP_GUIDE.md - Detailed setup for all platforms  
+# GITIGNORE_GUIDE.md - Complete .gitignore help

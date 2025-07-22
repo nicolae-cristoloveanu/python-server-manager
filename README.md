@@ -36,7 +36,7 @@ A powerful, interactive Python script for managing Python's built-in HTTP server
 #### Method 1: Clone Repository (Recommended)
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/python-server-manager.git
+git clone https://github.com/nicolae-cristoloveanu/python-server-manager.git
 cd python-server-manager
 
 # 2. Install dependencies
@@ -55,7 +55,7 @@ python3 python_server_manager.py --help
 #### Method 2: Direct Download
 ```bash
 # 1. Download the script
-curl -O https://raw.githubusercontent.com/your-username/python-server-manager/main/python_server_manager.py
+curl -O https://raw.githubusercontent.com/nicolae-cristoloveanu/python-server-manager/main/python_server_manager.py
 
 # 2. Install dependencies
 pip3 install psutil
